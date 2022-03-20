@@ -1,0 +1,157 @@
+/*
+.card-container{
+ padding: 3px;
+ display: flex;
+ flex-direction: column;
+ justify-content: start;
+ align-items: flex-start;
+}
+
+.header-image{
+  width: 50px;
+  height: 50px;
+}
+
+.header-image img{
+  object-fit: cover;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+mat-card-header{
+  width: 50%;
+  margin-left: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+mat-card-actions{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+*/
+
+
+.feed-container{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  margin-bottom: 7px;
+  flex-direction: column;
+  background-color: white;
+}
+
+.feed-content{
+  width: 100%;
+  height: 85%;
+}
+
+.content-img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.feed-icon-list{
+  width: 80%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.feed-icon-list ul{
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feed-icon-list li{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  font-size: 25px;
+}
+
+.feed-icon-list p{
+  margin-left: 5px;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+
+.circle-img{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.point{
+  height: 100%;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  font-size: 30px;
+  margin-right: 12px;
+}
+
+
+.profile{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.img1{
+  width: 60px;
+  height: 60px;
+  margin-left: 5px;
+  border-radius: 50%;
+  flex-shrink: 1;
+}
+
+.profile-info{
+  height: 20%;
+  width: 70%;
+}
+
+.profile-info h3{
+  font-family:Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+}
+
+.profile-info h5{
+  color: grey;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+ul, li{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  border: none;
+  background-color: white;
+}

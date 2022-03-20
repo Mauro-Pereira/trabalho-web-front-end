@@ -1,0 +1,35 @@
+.sidenav-container{
+  height: 88vh;
+  width: 100%;
+  background-color: white;
+
+}
+
+mat-sidenav{
+  width: 20%;
+  height: 100%;
+}
+
+.start-content{
+  border-right-width: 9px;
+  border-right-color: #eee;
+}
+
+.end-content{
+  border-left-width: 9px;
+  border-left-color: #eee;
+}
+
+mat-sidenav-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+mat-sidenav-content::-webkit-scrollbar{
+  display: none;
+}
+
+
