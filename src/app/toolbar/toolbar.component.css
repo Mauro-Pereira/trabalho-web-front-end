@@ -1,1 +1,29 @@
+.spacer{
+  flex: 1 1 auto;
+}
 
+.logo{
+  font-size: 30px;
+}
+
+.search{
+  width: 30%;
+  height: 50%;
+}
+
+mat-toolbar{
+  margin-bottom: 7px;
+}
+
+.search-icon{
+  color: white;
+}
+
+button{
+  width: 7%;
+  height: 50%;
+  background-color: purple;
+  border: none;
+  outline: none;
+
+}
