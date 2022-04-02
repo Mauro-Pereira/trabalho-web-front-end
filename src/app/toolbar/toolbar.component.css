@@ -9,6 +9,7 @@
 .search{
   width: 30%;
   height: 50%;
+  outline: none;
 }
 
 mat-toolbar{
