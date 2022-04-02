@@ -16,6 +16,7 @@ import { FeedComponent } from './feed/feed.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { CardComponent } from './card/card.component';
 import { SearchComponent } from './search/search.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { SearchComponent } from './search/search.component';
     FeedComponent,
     SidenavComponent,
     CardComponent,
-    SearchComponent
+    SearchComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
