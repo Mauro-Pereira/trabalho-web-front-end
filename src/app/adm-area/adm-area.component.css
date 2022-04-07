@@ -1,0 +1,9 @@
+.container{
+  height: 90vh;
+}
+
+.drawer{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}

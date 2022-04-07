@@ -18,6 +18,7 @@ import { CardComponent } from './card/card.component';
 import { SearchComponent } from './search/search.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AdmAreaComponent } from './adm-area/adm-area.component';
+import { AdmToolBarComponent } from './adm-tool-bar/adm-tool-bar.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { AdmAreaComponent } from './adm-area/adm-area.component';
     CardComponent,
     SearchComponent,
     ProfileComponent,
-    AdmAreaComponent
+    AdmAreaComponent,
+    AdmToolBarComponent
   ],
   imports: [
     BrowserModule,
