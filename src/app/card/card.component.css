@@ -155,3 +155,19 @@ button{
   border: none;
   background-color: white;
 }
+
+.thumb_up{
+  color: aqua;
+}
+
+.comment{
+  color: blueviolet;
+}
+
+.reply{
+  color: #ff005b;
+}
+
+.send{
+  color: greenyellow;
+}

@@ -17,6 +17,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { CardComponent } from './card/card.component';
 import { SearchComponent } from './search/search.component';
 import { ProfileComponent } from './profile/profile.component';
+import { AdmAreaComponent } from './adm-area/adm-area.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ProfileComponent } from './profile/profile.component';
     SidenavComponent,
     CardComponent,
     SearchComponent,
-    ProfileComponent
+    ProfileComponent,
+    AdmAreaComponent
   ],
   imports: [
     BrowserModule,
