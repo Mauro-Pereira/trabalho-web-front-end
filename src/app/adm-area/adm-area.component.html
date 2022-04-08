@@ -3,17 +3,26 @@
 <mat-drawer-container class="container">
 
   <mat-drawer mode="side" opened class="drawer">
-    <button>Block User</button>
+    <button class="block">Block User</button>
 
-    <button>Delete User</button>
+    <button class="unblock">Unblock User</button>
 
-    <button>Unblock User</button>
+    <button class="delete">Delete User</button>
 
-    <button>Undelete User</button>
+    <button class="undelete">Undelete User</button>
   </mat-drawer>
 
   <mat-drawer-content>
+      <div class="user-details">
 
+        <img src="https://picsum.photos/id/0/5616/3744">
+        <div class="button-container">
+          <button mat-fab color="primary" aria-label="Delete User">
+            <mat-icon>delete</mat-icon>
+          </button>
+      </div>
+
+      </div>
   </mat-drawer-content>
 
 </mat-drawer-container>
